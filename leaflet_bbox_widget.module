@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains leaflet_bbox_widget.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function leaflet_bbox_widget_theme() {
+  return [
+    //Rewritten leaflet_map theme. Was added width parameter.
+    //If a width isn't set in map element it broke working of fitBounds function.
+    'leaflet_map_widget' => [
+      'variables' => [
+        'map_id' => NULL,
+        'height' => '400px',
+        'width' => NULL,
+        'map' => [],
+      ],
+    ],
+  ];
+}

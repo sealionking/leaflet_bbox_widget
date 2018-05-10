@@ -1,0 +1,6 @@
+leaflet-bbox-widget:
+    version: VERSION
+    js:
+      leaflet_bbox_widget.js: {}
+    dependencies:
+      - leaflet/leaflet-drupal

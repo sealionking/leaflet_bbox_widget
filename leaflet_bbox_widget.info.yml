@@ -1,0 +1,8 @@
+name: 'Leaflet Bbox Widget'
+type: module
+description: 'Leaflet Bbox Widget'
+core: 8.x
+package: Leaflet
+dependencies:
+  - drupal:geofield
+  - drupal:leaflet
